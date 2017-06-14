@@ -15,13 +15,13 @@ before_script:
 script:
   - python3 leetcode_generate.py
 
-after_script:
+env:
+ global:
+   - GH_REPO: github.com/codeyu/leetcode-python.git
+
+after_success:
   - git config --global user.name 'codeyu'
   - git config --global user.email 'codeyu@gmail.com'
   - git add .
   - git commit -m "update auto by tracis-ci"
   - git push --force --quiet "https://${GH_TOKEN}:x-oauth-basic@${GH_REPO}" master:master  #GH_TOKEN是在Travis中配置token的名称
-
-env:
- global:
-   - GH_REPO: github.com/codeyu/leetcode-python.git
