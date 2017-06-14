@@ -428,6 +428,8 @@ class Leetcode:
         md = '''# :pencil2: Leetcode Solutions with {language}
 Update time:  {tm}
 
+Build status: [![Build Status](https://travis-ci.org/codeyu/leetcode-python.svg?branch=master)](https://travis-ci.org/codeyu/leetcode-python)
+
 Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)
 
 I have solved **{num_solved}   /   {num_total}** problems
