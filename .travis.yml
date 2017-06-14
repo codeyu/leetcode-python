@@ -20,8 +20,8 @@ after_script:
   - git config --global user.email 'codeyu@gmail.com'
   - git add .
   - git commit -m "update auto by tracis-ci"
-  - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master  #GH_TOKEN是在Travis中配置token的名称
+  - git push --force --quiet "https://${GH_TOKEN}:x-oauth-basic@${GH_REPO}" master:master  #GH_TOKEN是在Travis中配置token的名称
 
 env:
  global:
-   - GH_REF: github.com/codeyu/leetcode-python.git
+   - GH_REPO: github.com/codeyu/leetcode-python.git
