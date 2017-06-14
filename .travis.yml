@@ -20,11 +20,9 @@ env:
    - GH_REPO: github.com/codeyu/leetcode-python.git
 
 after_success:
-  - git config user.name 'codeyu'
-  - git config user.email 'codeyu@gmail.com'
-  - git branch
+  - git config user.name "codeyu"
+  - git config user.email "codeyu@gmail.com"
   - git status
-  - git checkout master
   - git add .
   - git commit -m "update auto by tracis-ci"
-  - git push --force --quiet "https://${GH_TOKEN}:x-oauth-basic@${GH_REPO}" master:master  #GH_TOKEN是在Travis中配置token的名称
+  - git push --force --quiet "https://${GH_TOKEN}:x-oauth-basic@${GH_REPO}" master:master
