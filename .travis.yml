@@ -26,4 +26,4 @@ after_success:
   - git status
   - git add .
   - git commit -m "update auto by tracis-ci"
-  - git push --force --quiet "https://${GH_TOKEN}:x-oauth-basic@${GH_REPO}" master:master
+  - git push --force "https://${GH_TOKEN}:x-oauth-basic@${GH_REPO}" master:master
