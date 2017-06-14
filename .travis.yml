@@ -11,6 +11,9 @@ install:
 
 before_script:
   - ls
+  - git config --list
+  - git config --global user.email "codeyu@gmail.com"
+  - git config --global user.name "codeyu"
 
 script:
   - python3 leetcode_generate.py
@@ -20,15 +23,7 @@ env:
    - GH_REPO: github.com/codeyu/leetcode-python.git
 
 after_success:
-  - git config user.email "codeyu@gmail.com"
-
-  - git config user.name "codeyu"
-
   - git status
-
   - git add .
-
   - git commit -m "update auto by tracis-ci"
-
   - git push --force --quiet "https://${GH_TOKEN}:x-oauth-basic@${GH_REPO}" master:master
-  
