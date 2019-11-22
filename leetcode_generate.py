@@ -1039,6 +1039,8 @@ class Leetcode:
         languages_readme = ','.join([x.capitalize() for x in self.languages])
 
         md = '''# :pencil2: Leetcode Solutions with {language}
+        
+[![Build Status](https://travis-ci.org/codeyu/leetcode-python.svg?branch=master)](https://travis-ci.org/codeyu/leetcode-python)
 
 Update time:  {tm}
 
