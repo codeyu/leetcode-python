@@ -1043,7 +1043,7 @@ Update time:  {tm}
 
 
 
-Auto created by [leetcode_generate](https://github.com/bonfy/leetcode)
+Auto created by [leetcode_generate](https://github.com/codeyu/leetcode-python/blob/master/leetcode_generate.py)
 
 
 
@@ -1070,7 +1070,6 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 
 
 | # | Title | Source Code | Article | Difficulty |
-
 |:---:|:---:|:---:|:---:|:---:|'''.format(
 
             language=languages_readme,
