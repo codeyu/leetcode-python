@@ -1,3 +1,4 @@
+if: sender != "Deployment Bot"
 os: osx
 osx_image: xcode11.2
 addons:
