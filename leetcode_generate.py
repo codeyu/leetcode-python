@@ -424,9 +424,7 @@ class Leetcode:
 
         # Wait for update
 
-        time.sleep(10)
-
-
+        time.sleep(15)
 
         driver.find_element_by_name('login').send_keys(usr)
 
@@ -443,12 +441,12 @@ class Leetcode:
         submit_btn.click()
 
 
-
-        time.sleep(5)
+        time.sleep(10)
 
         webdriver_cookies = driver.get_cookies()
         
         driver.close()
+        print(usr)
         print(webdriver_cookies)
         if 'LEETCODE_SESSION' not in [
 
