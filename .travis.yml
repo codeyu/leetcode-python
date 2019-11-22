@@ -4,6 +4,7 @@ addons:
   homebrew:
     casks:
     - chromedriver
+    - google-chrome
     
 language: shell
 python:
