@@ -13,7 +13,13 @@ python:
 # command to install dependencies
 install:
   - sudo pip3 install -r req.txt
-  
+
+before_script:
+  - git init
+  - git config --global user.email "${github_email}"
+  - git config --global user.name "${github_name}"
+  - git config --list
+
 script:
   - python3 leetcode_generate.py
 
@@ -22,10 +28,6 @@ env:
    - GH_REPO: github.com/codeyu/leetcode-python.git
 
 after_success:
-  - ls
-  - git config --list
-  - git config --global user.email "${github_email}"
-  - git config --global user.name "${github_name}"
   - git status
   - git add .
   - git commit -m "update auto by tracis-ci"
