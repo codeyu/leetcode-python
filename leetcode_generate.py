@@ -447,9 +447,9 @@ class Leetcode:
         time.sleep(5)
 
         webdriver_cookies = driver.get_cookies()
-
+        
         driver.close()
-
+        print(webdriver_cookies)
         if 'LEETCODE_SESSION' not in [
 
             cookie['name'] for cookie in webdriver_cookies
