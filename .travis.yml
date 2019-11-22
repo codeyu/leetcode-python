@@ -1,4 +1,6 @@
-if: sender != "Deployment Bot"
+if: sender != traviscibot AND \
+    sender = codeyu AND \
+    commit_message !~ /(not-ci|wip)/
 os: osx
 osx_image: xcode11.2
 addons:
