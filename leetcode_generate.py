@@ -1238,9 +1238,9 @@ def do_job(leetcode):
 
     print('Leetcode finish write readme')
 
-    leetcode.push_to_github()
+    # leetcode.push_to_github()
 
-    print('push to github')
+    # print('push to github')
 
 
 
@@ -1249,9 +1249,4 @@ def do_job(leetcode):
 if __name__ == '__main__':
 
     leetcode = Leetcode()
-
-    while True:
-
-        do_job(leetcode)
-
-        time.sleep(24 * 60 * 60)
+    do_job(leetcode)
