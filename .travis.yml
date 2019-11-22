@@ -28,7 +28,9 @@ env:
    - GH_REPO: github.com/codeyu/leetcode-python.git
 
 after_success:
+  - git checkout master
   - git status
   - git add .
-  - git commit -m "update auto by tracis-ci"
-  - git push --force --quiet "https://${GH_TOKEN}@${GH_REPO}" master:master >/dev/null 2>&1
+  - git commit -m "update by Travis CI (JOB $TRAVIS_JOB_NUMBER)"
+  - git remote add origin https://${GH_TOKEN}@${GH_REPO} > /dev/null 2>&1
+  - git push --force --quiet origin master
