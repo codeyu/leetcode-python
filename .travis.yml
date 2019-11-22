@@ -1,6 +1,11 @@
 language: python
 python:
   - "3.6"
+ 
+before_install:
+  - sudo apt-get -y install chromium
+  - sudo apt-get -y install chromedriver
+  - sudo ln -s /usr/bin/chromedriver /usr/local/bin/chromedriver
 
 # command to install dependencies
 install:
