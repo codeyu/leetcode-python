@@ -5,6 +5,7 @@ addons:
     casks:
     - chromedriver
     - google-chrome
+    update: true
     
 language: shell
 cache: pip
