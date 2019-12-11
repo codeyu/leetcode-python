@@ -1,4 +1,3 @@
-if: commit_message !~ /(not-ci|wip|Deploy)/
 os: osx
 osx_image: xcode11.2
 addons:
