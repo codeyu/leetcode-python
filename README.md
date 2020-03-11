@@ -2,7 +2,7 @@
         
 [![Build Status](https://travis-ci.org/codeyu/leetcode-python.svg?branch=master)](https://travis-ci.org/codeyu/leetcode-python)
 
-Update time:  2020-03-04 07:30:02
+Update time:  2020-03-11 07:30:14
 
 
 
@@ -10,7 +10,7 @@ Auto created by [leetcode_generate](https://github.com/codeyu/leetcode-python/bl
 
 
 
-I have solved **73   /   1256** problems
+I have solved **73   /   1264** problems
 
 while there are **208** problems still locked.
 
@@ -46,7 +46,7 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |10|[regular-expression-matching](https://leetcode.com/problems/regular-expression-matching)||[:memo:](https://leetcode.com/articles/regular-expression-matching/)|Hard|
 |11|[container-with-most-water](https://leetcode.com/problems/container-with-most-water)||[:memo:](https://leetcode.com/articles/container-with-most-water/)|Medium|
 |12|[integer-to-roman](https://leetcode.com/problems/integer-to-roman)|||Medium|
-|13|[roman-to-integer](https://leetcode.com/problems/roman-to-integer)|||Easy|
+|13|[roman-to-integer](https://leetcode.com/problems/roman-to-integer)||[:memo:](https://leetcode.com/articles/roman-to-integer/)|Easy|
 |14|[longest-common-prefix](https://leetcode.com/problems/longest-common-prefix)||[:memo:](https://leetcode.com/articles/longest-common-prefix/)|Easy|
 |15|[3sum](https://leetcode.com/problems/3sum)|||Medium|
 |16|[3sum-closest](https://leetcode.com/problems/3sum-closest)|||Medium|
@@ -62,7 +62,7 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |26|[remove-duplicates-from-sorted-array](https://leetcode.com/problems/remove-duplicates-from-sorted-array)||[:memo:](https://leetcode.com/articles/remove-duplicates-from-sorted-array/)|Easy|
 |27|[remove-element](https://leetcode.com/problems/remove-element)||[:memo:](https://leetcode.com/articles/remove-element/)|Easy|
 |28|[implement-strstr](https://leetcode.com/problems/implement-strstr)||[:memo:](https://leetcode.com/articles/implement-strstr/)|Easy|
-|29|[divide-two-integers](https://leetcode.com/problems/divide-two-integers)|||Medium|
+|29|[divide-two-integers](https://leetcode.com/problems/divide-two-integers)||[:memo:](https://leetcode.com/articles/divide-integers/)|Medium|
 |30|[substring-with-concatenation-of-all-words](https://leetcode.com/problems/substring-with-concatenation-of-all-words)|||Hard|
 |31|[next-permutation](https://leetcode.com/problems/next-permutation)||[:memo:](https://leetcode.com/articles/next-permutation/)|Medium|
 |32|[longest-valid-parentheses](https://leetcode.com/problems/longest-valid-parentheses)||[:memo:](https://leetcode.com/articles/longest-valid-parentheses/)|Hard|
@@ -99,7 +99,7 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |63|[unique-paths-ii](https://leetcode.com/problems/unique-paths-ii)||[:memo:](https://leetcode.com/articles/unique-paths-ii/)|Medium|
 |64|[minimum-path-sum](https://leetcode.com/problems/minimum-path-sum)||[:memo:](https://leetcode.com/articles/minimum-path-sum/)|Medium|
 |65|[valid-number](https://leetcode.com/problems/valid-number)|||Hard|
-|66|[plus-one](https://leetcode.com/problems/plus-one)|||Easy|
+|66|[plus-one](https://leetcode.com/problems/plus-one)||[:memo:](https://leetcode.com/articles/plus-one/)|Easy|
 |67|[add-binary](https://leetcode.com/problems/add-binary)||[:memo:](https://leetcode.com/articles/add-binary/)|Easy|
 |68|[text-justification](https://leetcode.com/problems/text-justification)|||Hard|
 |69|[sqrtx](https://leetcode.com/problems/sqrtx)||[:memo:](https://leetcode.com/articles/sqrtx/)|Easy|
@@ -1258,7 +1258,7 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |1441|[minimum-flips-to-make-a-or-b-equal-to-c](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c)|||Medium|
 |1442|[number-of-operations-to-make-network-connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected)|||Medium|
 |1443|[minimum-distance-to-type-a-word-using-two-fingers](https://leetcode.com/problems/minimum-distance-to-type-a-word-using-two-fingers)|||Hard|
-|1444|[number-of-steps-to-reduce-a-number-to-zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero)|||Easy|
+|1444|[number-of-steps-to-reduce-a-number-to-zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero)||[:memo:](https://leetcode.com/articles/number-of-steps-to-reduce-a-number-to-zero/)|Easy|
 |1445|[number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold)|||Medium|
 |1446|[angle-between-hands-of-a-clock](https://leetcode.com/problems/angle-between-hands-of-a-clock)|||Medium|
 |1447|[jump-game-iv](https://leetcode.com/problems/jump-game-iv)|||Hard|
@@ -1282,6 +1282,10 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |1469|[minimum-number-of-steps-to-make-two-strings-anagram](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram)|||Medium|
 |1470|[tweet-counts-per-frequency](https://leetcode.com/problems/tweet-counts-per-frequency)|||Medium|
 |1471|[maximum-students-taking-exam](https://leetcode.com/problems/maximum-students-taking-exam)|||Hard|
+|1472|[increasing-decreasing-string](https://leetcode.com/problems/increasing-decreasing-string)|||Easy|
+|1473|[find-the-longest-substring-containing-vowels-in-even-counts](https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts)|||Medium|
+|1474|[longest-zigzag-path-in-a-binary-tree](https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree)|||Medium|
+|1475|[maximum-sum-bst-in-binary-tree](https://leetcode.com/problems/maximum-sum-bst-in-binary-tree)|||Hard|
 |1476|[count-negative-numbers-in-a-sorted-matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix)|||Easy|
 |1477|[product-of-the-last-k-numbers](https://leetcode.com/problems/product-of-the-last-k-numbers)|||Medium|
 |1478|[maximum-number-of-events-that-can-be-attended](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended)|||Medium|
@@ -1290,3 +1294,7 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |1483|[rank-teams-by-votes](https://leetcode.com/problems/rank-teams-by-votes)|||Medium|
 |1484|[linked-list-in-binary-tree](https://leetcode.com/problems/linked-list-in-binary-tree)|||Medium|
 |1485|[minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid)|||Hard|
+|1490|[generate-a-string-with-characters-that-have-odd-counts](https://leetcode.com/problems/generate-a-string-with-characters-that-have-odd-counts)|||Easy|
+|1491|[bulb-switcher-iii](https://leetcode.com/problems/bulb-switcher-iii)|||Medium|
+|1492|[time-needed-to-inform-all-employees](https://leetcode.com/problems/time-needed-to-inform-all-employees)|||Medium|
+|1493|[frog-position-after-t-seconds](https://leetcode.com/problems/frog-position-after-t-seconds)|||Hard|
