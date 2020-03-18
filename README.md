@@ -2,7 +2,7 @@
         
 [![Build Status](https://travis-ci.org/codeyu/leetcode-python.svg?branch=master)](https://travis-ci.org/codeyu/leetcode-python)
 
-Update time:  2020-03-11 07:30:14
+Update time:  2020-03-18 07:31:02
 
 
 
@@ -10,7 +10,7 @@ Auto created by [leetcode_generate](https://github.com/codeyu/leetcode-python/bl
 
 
 
-I have solved **73   /   1264** problems
+I have solved **73   /   1269** problems
 
 while there are **208** problems still locked.
 
@@ -58,7 +58,7 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |22|[generate-parentheses](https://leetcode.com/problems/generate-parentheses)||[:memo:](https://leetcode.com/articles/generate-parentheses/)|Medium|
 |23|[merge-k-sorted-lists](https://leetcode.com/problems/merge-k-sorted-lists)||[:memo:](https://leetcode.com/articles/merge-k-sorted-list/)|Hard|
 |24|[swap-nodes-in-pairs](https://leetcode.com/problems/swap-nodes-in-pairs)||[:memo:](https://leetcode.com/articles/swap-nodes-in-pairs/)|Medium|
-|25|[reverse-nodes-in-k-group](https://leetcode.com/problems/reverse-nodes-in-k-group)|||Hard|
+|25|[reverse-nodes-in-k-group](https://leetcode.com/problems/reverse-nodes-in-k-group)||[:memo:](https://leetcode.com/articles/reverse-nodes-in-k-group/)|Hard|
 |26|[remove-duplicates-from-sorted-array](https://leetcode.com/problems/remove-duplicates-from-sorted-array)||[:memo:](https://leetcode.com/articles/remove-duplicates-from-sorted-array/)|Easy|
 |27|[remove-element](https://leetcode.com/problems/remove-element)||[:memo:](https://leetcode.com/articles/remove-element/)|Easy|
 |28|[implement-strstr](https://leetcode.com/problems/implement-strstr)||[:memo:](https://leetcode.com/articles/implement-strstr/)|Easy|
@@ -162,7 +162,7 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |126|[word-ladder-ii](https://leetcode.com/problems/word-ladder-ii)|||Hard|
 |127|[word-ladder](https://leetcode.com/problems/word-ladder)||[:memo:](https://leetcode.com/articles/word-ladder/)|Medium|
 |128|[longest-consecutive-sequence](https://leetcode.com/problems/longest-consecutive-sequence)||[:memo:](https://leetcode.com/articles/longest-consecutive-sequence/)|Hard|
-|129|[sum-root-to-leaf-numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers)|||Medium|
+|129|[sum-root-to-leaf-numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers)||[:memo:](https://leetcode.com/articles/sum-root-to-leaf-numbers/)|Medium|
 |130|[surrounded-regions](https://leetcode.com/problems/surrounded-regions)||[:memo:](https://leetcode.com/articles/surrounded-regions/)|Medium|
 |131|[palindrome-partitioning](https://leetcode.com/problems/palindrome-partitioning)|||Medium|
 |132|[palindrome-partitioning-ii](https://leetcode.com/problems/palindrome-partitioning-ii)|||Hard|
@@ -278,7 +278,7 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |258|[add-digits](https://leetcode.com/problems/add-digits)|||Easy|
 |259|[3sum-smaller](https://leetcode.com/problems/3sum-smaller)|:lock:|[:memo:](https://leetcode.com/articles/3sum-smaller/)|Medium|
 |260|[single-number-iii](https://leetcode.com/problems/single-number-iii)||[:memo:](https://leetcode.com/articles/single-number-iii/)|Medium|
-|261|[graph-valid-tree](https://leetcode.com/problems/graph-valid-tree)|:lock:||Medium|
+|261|[graph-valid-tree](https://leetcode.com/problems/graph-valid-tree)|:lock:|[:memo:](https://leetcode.com/articles/graph-valid-tree/)|Medium|
 |263|[ugly-number](https://leetcode.com/problems/ugly-number)|||Easy|
 |264|[ugly-number-ii](https://leetcode.com/problems/ugly-number-ii)||[:memo:](https://leetcode.com/articles/ugly-number-ii/)|Medium|
 |265|[paint-house-ii](https://leetcode.com/problems/paint-house-ii)|:lock:|[:memo:](https://leetcode.com/articles/paint-house-ii/)|Hard|
@@ -399,7 +399,7 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |380|[insert-delete-getrandom-o1](https://leetcode.com/problems/insert-delete-getrandom-o1)||[:memo:](https://leetcode.com/articles/insert-delete-getrandom-o1/)|Medium|
 |381|[insert-delete-getrandom-o1-duplicates-allowed](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed)||[:memo:](https://leetcode.com/articles/insert-delete-getrandom-o1-duplicates-allowed/)|Hard|
 |382|[linked-list-random-node](https://leetcode.com/problems/linked-list-random-node)|||Medium|
-|383|[ransom-note](https://leetcode.com/problems/ransom-note)|||Easy|
+|383|[ransom-note](https://leetcode.com/problems/ransom-note)||[:memo:](https://leetcode.com/articles/ransom-note/)|Easy|
 |384|[shuffle-an-array](https://leetcode.com/problems/shuffle-an-array)||[:memo:](https://leetcode.com/articles/shuffle-an-array/)|Medium|
 |385|[mini-parser](https://leetcode.com/problems/mini-parser)|||Medium|
 |386|[lexicographical-numbers](https://leetcode.com/problems/lexicographical-numbers)|||Medium|
@@ -1180,6 +1180,7 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |1280|[diet-plan-performance](https://leetcode.com/problems/diet-plan-performance)|:lock:||Easy|
 |1281|[can-make-palindrome-from-substring](https://leetcode.com/problems/can-make-palindrome-from-substring)|||Medium|
 |1282|[number-of-valid-words-for-each-puzzle](https://leetcode.com/problems/number-of-valid-words-for-each-puzzle)|||Hard|
+|1285|[balance-a-binary-search-tree](https://leetcode.com/problems/balance-a-binary-search-tree)|||Medium|
 |1287|[distance-between-bus-stops](https://leetcode.com/problems/distance-between-bus-stops)|||Easy|
 |1288|[maximum-subarray-sum-with-one-deletion](https://leetcode.com/problems/maximum-subarray-sum-with-one-deletion)|||Medium|
 |1289|[day-of-the-week](https://leetcode.com/problems/day-of-the-week)|||Easy|
@@ -1298,3 +1299,7 @@ If you are loving solving problems in leetcode, please contact me to enjoy it to
 |1491|[bulb-switcher-iii](https://leetcode.com/problems/bulb-switcher-iii)|||Medium|
 |1492|[time-needed-to-inform-all-employees](https://leetcode.com/problems/time-needed-to-inform-all-employees)|||Medium|
 |1493|[frog-position-after-t-seconds](https://leetcode.com/problems/frog-position-after-t-seconds)|||Hard|
+|1496|[lucky-numbers-in-a-matrix](https://leetcode.com/problems/lucky-numbers-in-a-matrix)|||Easy|
+|1497|[design-a-stack-with-increment-operation](https://leetcode.com/problems/design-a-stack-with-increment-operation)|||Medium|
+|1498|[find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree](https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree)|||Medium|
+|1499|[maximum-performance-of-a-team](https://leetcode.com/problems/maximum-performance-of-a-team)|||Hard|
